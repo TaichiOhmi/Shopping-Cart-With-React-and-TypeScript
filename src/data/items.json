@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "アジ",
+        "price": 200,
+        "imgUrl": "/imgs/aji.jpg"
+    },
+    {
+        "id": 2,
+        "name": "タチウオ",
+        "price": 1000,
+        "imgUrl": "/imgs/tachi.jpg"
+    },
+    {
+        "id": 3,
+        "name": "マダイ",
+        "price": 2000,
+        "imgUrl": "/imgs/madai.jpg"
+    },
+    {
+        "id": 4,
+        "name": "イサキ",
+        "price": 400,
+        "imgUrl": "/imgs/isaki.jpg"
+    },
+    {
+        "id": 5,
+        "name": "カサゴ",
+        "price": 500,
+        "imgUrl": "/imgs/kasago.jpg"
+    }
+]
