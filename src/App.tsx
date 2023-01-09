@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import Store from "./pages/Store";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 const App = (): JSX.Element => {
   return (
-    <>
+    // ShoppingCartProviderの内側ではこのこのコンテクストで作成したcontextが利用可能。
+    <ShoppingCartProvider>
       <Navbar />
       <Container className="mb-4">
         <Routes>
@@ -16,7 +18,7 @@ const App = (): JSX.Element => {
           <Route path="/about" element={<About />} />
         </Routes>
       </Container>
-    </>
+    </ShoppingCartProvider>
   );
 }
 
